@@ -1,0 +1,79 @@
+body {
+  background-color: #54E7CA
+  background-image: url(image/patch.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+main {background-color: #CA54E7
+
+}
+
+h1{font-weight: normal;
+font-size: 16px;
+}
+
+
+.customtext{font-family:Arial, Helevetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 28px;
+}
+
+.fontcombined {
+font: bold 20px Arial, Helvetica, sans-serif;
+}
+
+.imgbox {
+  border: 5px solid #ff0000;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 15px 15px 0 0;
+  width: 200px;
+}
+
+.boxmodel {
+border: 2px solid #0000ff;
+padding: 20px 20px 20px 20px;
+margin: 10px 10px 10px 10px;
+}
+
+.otherbox {padding: 10px;
+  margin: 20px;
+  border: 1px solid #00ff00;
+}
+
+.zeroout {
+margin: 0;
+padding: 0;
+}
+
+.pwidth {
+  border: 1px solid: #ff0000;
+  width: 100px;
+  padding: 10px;
+}
+
+.textright {
+text-align: right;
+}
+
+.textleft {
+text-align: left;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.textspace {
+letter-spacing: 20px;
+}
+
+.textheight {
+line-height: 50px;
+}
