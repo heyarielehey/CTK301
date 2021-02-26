@@ -1,0 +1,68 @@
+.customtext {
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+}
+
+h1 {
+color: #fcba03;
+background-color: #ffffff;
+font-style: italic;
+font-weight: normal;
+}
+
+.imgbox{
+  border:15px solid #000000;
+  padding:10px 10px 10px 10px;
+}
+
+#specialid {
+ color: #6C1E08;
+ background-color: #F6B8A6
+}
+
+.textcenter {
+text-align: center;
+}
+
+.specialp {
+  color: #F6B8A6;
+  background-color: #6C1E08
+}
+
+a:link {
+ color: #FA520A;
+}
+
+a:visited {
+ color: #95FB3C;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #F1FB3C;
+ text-decoration: underline;
+}
+
+.spanstyle {
+  color: #0000FF;
+}
+
+#divexample {
+color: #5D0773;
+background-color: #E9C3F2
+}
+
+h3 .textjustify {
+text-align: justify;
+}
+
+body{
+  background-image: url(ctkcat.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
