@@ -1,0 +1,115 @@
+.customtext {
+  font-family: Helvetica;
+  font-style: italic;
+}
+
+body{
+  background-color: #cccccc;
+  background-image: url(a62.png);
+}
+
+
+
+h1 {
+  font-family: Helvetica;
+  font-weight: normal;
+  padding: 15px;
+  margin: 0px;
+  background-color: #000000;
+  color: #ffffff
+}
+
+h2 {
+  font-family: Helvetica;
+  text-align: center;
+  border-bottom: 3px solid #000000;
+  padding-bottom: 5px;
+}
+
+#wrapper {
+  width: 960px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  margin: 1em auto;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+}
+
+header {
+  grid-column: span 12;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+main {
+  grid-column: span 9;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 0px;
+  margin: 10px;
+  width: 150px;
+  background-color: #f23311;
+  color: #ffffff
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: #9e1e08;
+}
+
+
+.floatimage {
+  width: 375px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border: 5px solid #000000;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.p4, .p5 {
+  clear: both
+}
+
+.p1, .p2, .p3 {
+  margin: 10px;
+  padding: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.spanstyle{
+  color: #f23311;
+  font-weight: bold;
+}
+
+footer {
+  font-family: Verdana;
+  text-align: center;
+  font-style: italic;
+  color: #ffffff;
+  display: block;
+  border: 3px solid #000000;
+  padding: 1px;
+  background-color: #f23311;
+  grid-column: span 12;
+}
